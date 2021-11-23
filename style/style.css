@@ -1,0 +1,98 @@
+body{
+    background-image: url("../Img/fondo.jpg.");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+aside{
+    font-size:text-center ;
+    border:3px red double;
+    width: 1000px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+a:link{
+    color:darkblue;
+}
+
+a:visited{
+    color:red;
+   
+}
+
+a:hover{
+    color:darkcyan;
+    background-color:lightcoral;
+    
+}
+
+a:active{
+    color:fuchsia;
+    border: 3px solid ;
+    border-color:brown;
+
+}
+
+a{
+    display:inline;
+    padding:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+} 
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+
+h2{
+    width: 600px;
+}
+
+h4{
+    margin: 20px 20px 20px 20px;
+}
+
+.navegador{
+    padding:30px;
+    margin-top: 15px;
+    background-color: darksalmon;
+}
+
+.boton_card{
+    color:orange;
+}
+
+.card-body{
+    border-color:brown;
+}
+
+
+.tipografia{
+    font-family: 'Roboto Mono', monospace; 
+}
+
+.cursiva {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.top_five{
+    margin: 50px;
+    border:3px red double;
+    width: 1000px;
+}
+
+
+
+
